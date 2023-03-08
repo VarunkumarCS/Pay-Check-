@@ -19,4 +19,5 @@ Python Code which helps you to calculate the "NET PAY" of an employee.
     g) Take Home Net Amount.
     
     
-    ![github image](https://user-images.githubusercontent.com/87888762/223762179-9f16a745-863a-481d-a185-1d6655a0dff4.PNG)
+    ![GitHub image](https://user-images.githubusercontent.com/87888762/223775683-818d22eb-cd02-4239-acc2-e5c1104b068f.PNG)
+
