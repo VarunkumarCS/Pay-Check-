@@ -123,9 +123,11 @@ if __name__ == "__main__":
             
 
 #Printing the information of the data in the Table (using 'tabulate' package)            
-data1 = {'Name of the Employee':[name], 'Start Date' :[sd],'End Date':[ed], 'Gross Wage': [Gross_wages],'Tax Deduction': [tax_deduction],'Gross wage after tax deduction':[GW],
+data1 = {'Name of the Employee':[name], 'Start Date' :[sd],'End Date':[ed], 'Gross Wage': [Gross_wages],'Tax Deduction': 
+         [tax_deduction],'Gross wage after tax deduction':[GW],
         'Insurance Policy':[name_of_the_insurance],'Cost of Chosen Medical Benefit': [cost_of_chosen_medical_benefit], 'Take Home':[employee_benefits],
         'Monthly Paycheck':[Monthly_Paycheck],'Bi-Weekely Paycheck':[Bi_weekely_Paycheck]}
 
 print(tabulate(data1, headers =['Name', 'Start Date', 'End Date', 'Gross Wage','Tax Deduction','Gross wage after tax deduction','Insurance Policy',
-                                'Cost of Chosen Medical Benefit','Take Home','Monthly Paycheck','Bi-Weekely Paycheck'], tablefmt = "pretty", showindex = True, missingval = 'N/A'))
+                                'Cost of Chosen Medical Benefit','Take Home','Monthly Paycheck','Bi-Weekely Paycheck'], 
+               tablefmt = "pretty", showindex = True, missingval = 'N/A'))
