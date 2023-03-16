@@ -90,11 +90,9 @@ if __name__ == "__main__":
                     try:
                         if name_of_the_insurance == "premium":
                             cost_of_chosen_medical_benefit = 1440
-                            Benefit_Deduction = tax_deduction + cost_of_chosen_medical_benefit
                             break
                         elif name_of_the_insurance == "basic":
                             cost_of_chosen_medical_benefit = 1200
-                            Benefit_Deduction = tax_deduction + cost_of_chosen_medical_benefit
                             break
                         else:
                             print("Invalid input. Please enter either 'premium' or 'basic'.")
@@ -105,11 +103,11 @@ if __name__ == "__main__":
             elif benefits == "no":
                 name_of_the_insurance == 'No Medical Benefit'
                 cost_of_chosen_medical_benefit == 0
-                Benefit_Deduction = tax_deduction + cost_of_chosen_medical_benefit
             else:
                 print("Invalid input. Please enter either 'yes' or 'no'.")
                 continue
-                
+             
+            Benefit_Deduction = tax_deduction + cost_of_chosen_medical_benefit
             employee_benefits = Gross_wages - Benefit_Deduction
             Monthly_Paycheck = round(employee_benefits/12)
             Bi_weekely_Paycheck = round(Monthly_Paycheck/2)
