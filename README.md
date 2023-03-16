@@ -22,4 +22,3 @@ Python Code which helps you to calculate the "NET PAY" of an employee.
     
 ![2](https://user-images.githubusercontent.com/87888762/225736587-dcfee6c1-df90-4e40-b380-e6690acb7980.PNG)
 
-![Capture](https://user-images.githubusercontent.com/87888762/225736603-f8916a07-a4d9-4989-b681-0c58efcf78aa.PNG)
